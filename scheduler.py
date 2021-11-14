@@ -142,7 +142,6 @@ def SJFP(data):                                                                 
     print('Average Trunaround Time: ',advTurn/len(data))
     print('Throughput: ', len(data)/currtime, '\n \n')
 
-
 def RR(data, t):                                                                                                        #Start of Round Robin method
     tq =int(t)
     burst = []                                                                                                          #get copy of burst to decresee the time 
